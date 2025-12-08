@@ -43,7 +43,7 @@ export default function Home() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`${API_BASE_URL}/predict`, {
+      const res = await fetch(`${API_BASE_URL}predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ profile })
@@ -65,7 +65,7 @@ export default function Home() {
     setError(null);
     try {
       const parsed = JSON.parse(customJson);
-      const res = await fetch(`${API_BASE_URL}/score`, {
+      const res = await fetch(`${API_BASE_URL}score`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(parsed)
