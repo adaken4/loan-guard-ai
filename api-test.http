@@ -1,0 +1,18 @@
+POST http://localhost:8000/score
+Content-Type: application/json
+
+{
+  "transactions": [
+    {
+      "date": "2025-06-01T00:00:00",
+      "amount": 800,
+      "type": "income"
+    }
+  ],
+  "repayments": [
+    {
+      "loan_id": "LOAN-1",
+      "status": "on_time"
+    }
+  ]
+}

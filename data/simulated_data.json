@@ -1,0 +1,2279 @@
+{
+  "good_spender": {
+    "profile": "good_spender",
+    "transactions": [
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 62.8,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 31.4,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 47.1,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 15.7,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 96.0,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 48.0,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 72.0,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 24.0,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 68.4,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 34.2,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 51.3,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 17.1,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 151.6,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 75.8,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 113.7,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 37.9,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 126.4,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 63.2,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 94.8,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 31.6,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 58.8,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 29.4,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 44.1,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 14.7,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 143.2,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 71.6,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 107.4,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 35.8,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 154.8,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 77.4,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 116.1,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 38.7,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 151.6,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 75.8,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 113.7,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 37.9,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 131.6,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 65.8,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 98.7,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 32.9,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 41.2,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 20.6,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 30.9,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 10.3,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 72.4,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 36.2,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 54.3,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 18.1,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 109.6,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 54.8,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 82.2,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 27.4,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 84.0,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 42.0,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 63.0,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 21.0,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 108.8,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 54.4,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 81.6,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 27.2,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 117.6,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 58.8,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 88.2,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 29.4,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 110.4,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 55.2,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 82.8,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 27.6,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 48.8,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 24.4,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 36.6,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 12.2,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 149.6,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 74.8,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 112.2,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 37.4,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 117.2,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 58.6,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 87.9,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 29.3,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 100.0,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 50.0,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 75.0,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 25.0,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 114.0,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 57.0,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 85.5,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 28.5,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 54.0,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 40.5,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 13.5,
+        "type": "expense",
+        "category": "entertainment"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 86.4,
+        "type": "expense",
+        "category": "groceries"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 43.2,
+        "type": "expense",
+        "category": "utilities"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 64.8,
+        "type": "expense",
+        "category": "savings"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 21.6,
+        "type": "expense",
+        "category": "entertainment"
+      }
+    ],
+    "repayments": [
+      {
+        "loan_id": "LOAN-0",
+        "due_date": "2025-07-01T00:00:00",
+        "paid_date": "2025-07-01T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-1",
+        "due_date": "2025-07-08T00:00:00",
+        "paid_date": "2025-07-08T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-2",
+        "due_date": "2025-07-15T00:00:00",
+        "paid_date": "2025-07-15T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-3",
+        "due_date": "2025-07-22T00:00:00",
+        "paid_date": "2025-07-22T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-4",
+        "due_date": "2025-07-29T00:00:00",
+        "paid_date": "2025-07-29T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-5",
+        "due_date": "2025-08-05T00:00:00",
+        "paid_date": "2025-08-05T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-6",
+        "due_date": "2025-08-12T00:00:00",
+        "paid_date": "2025-08-12T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-7",
+        "due_date": "2025-08-19T00:00:00",
+        "paid_date": "2025-08-19T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-8",
+        "due_date": "2025-08-26T00:00:00",
+        "paid_date": "2025-08-26T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-9",
+        "due_date": "2025-09-02T00:00:00",
+        "paid_date": "2025-09-02T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-10",
+        "due_date": "2025-09-09T00:00:00",
+        "paid_date": "2025-09-09T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-11",
+        "due_date": "2025-09-16T00:00:00",
+        "paid_date": "2025-09-16T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-12",
+        "due_date": "2025-09-23T00:00:00",
+        "paid_date": "2025-09-23T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-13",
+        "due_date": "2025-09-30T00:00:00",
+        "paid_date": "2025-09-30T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-14",
+        "due_date": "2025-10-07T00:00:00",
+        "paid_date": "2025-10-07T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-15",
+        "due_date": "2025-10-14T00:00:00",
+        "paid_date": "2025-10-14T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-16",
+        "due_date": "2025-10-21T00:00:00",
+        "paid_date": "2025-10-21T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-17",
+        "due_date": "2025-10-28T00:00:00",
+        "paid_date": "2025-10-28T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-18",
+        "due_date": "2025-11-04T00:00:00",
+        "paid_date": "2025-11-04T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-19",
+        "due_date": "2025-11-11T00:00:00",
+        "paid_date": "2025-11-11T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-20",
+        "due_date": "2025-11-18T00:00:00",
+        "paid_date": "2025-11-18T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-21",
+        "due_date": "2025-11-25T00:00:00",
+        "paid_date": "2025-11-25T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-22",
+        "due_date": "2025-12-02T00:00:00",
+        "paid_date": "2025-12-02T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-23",
+        "due_date": "2025-12-09T00:00:00",
+        "paid_date": "2025-12-09T00:00:00",
+        "status": "on_time"
+      }
+    ]
+  },
+  "gambling_spender": {
+    "profile": "gambling_spender",
+    "transactions": [
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 600,
+        "type": "income"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 270.0,
+        "type": "expense",
+        "category": "gambling"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 162.0,
+        "type": "expense",
+        "category": "food"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 81.0,
+        "type": "expense",
+        "category": "bills"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 27.0,
+        "type": "expense",
+        "category": "other"
+      }
+    ],
+    "repayments": [
+      {
+        "loan_id": "LOAN-0",
+        "due_date": "2025-07-01T00:00:00",
+        "paid_date": "2025-07-09T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-1",
+        "due_date": "2025-07-08T00:00:00",
+        "paid_date": "2025-07-08T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-2",
+        "due_date": "2025-07-15T00:00:00",
+        "paid_date": "2025-07-15T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-3",
+        "due_date": "2025-07-22T00:00:00",
+        "paid_date": "2025-07-28T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-4",
+        "due_date": "2025-07-29T00:00:00",
+        "paid_date": "2025-07-29T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-5",
+        "due_date": "2025-08-05T00:00:00",
+        "paid_date": "2025-08-05T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-6",
+        "due_date": "2025-08-12T00:00:00",
+        "paid_date": "2025-08-15T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-7",
+        "due_date": "2025-08-19T00:00:00",
+        "paid_date": "2025-08-19T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-8",
+        "due_date": "2025-08-26T00:00:00",
+        "paid_date": "2025-09-01T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-9",
+        "due_date": "2025-09-02T00:00:00",
+        "paid_date": "2025-09-02T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-10",
+        "due_date": "2025-09-09T00:00:00",
+        "paid_date": "2025-09-27T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-11",
+        "due_date": "2025-09-16T00:00:00",
+        "paid_date": "2025-09-16T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-12",
+        "due_date": "2025-09-23T00:00:00",
+        "paid_date": "2025-09-25T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-13",
+        "due_date": "2025-09-30T00:00:00",
+        "paid_date": "2025-09-30T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-14",
+        "due_date": "2025-10-07T00:00:00",
+        "paid_date": "2025-10-07T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-15",
+        "due_date": "2025-10-14T00:00:00",
+        "paid_date": "2025-10-14T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-16",
+        "due_date": "2025-10-21T00:00:00",
+        "paid_date": "2025-10-21T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-17",
+        "due_date": "2025-10-28T00:00:00",
+        "paid_date": "2025-11-08T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-18",
+        "due_date": "2025-11-04T00:00:00",
+        "paid_date": "2025-11-04T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-19",
+        "due_date": "2025-11-11T00:00:00",
+        "paid_date": "2025-11-26T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-20",
+        "due_date": "2025-11-18T00:00:00",
+        "paid_date": "2025-11-18T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-21",
+        "due_date": "2025-11-25T00:00:00",
+        "paid_date": "2025-12-13T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-22",
+        "due_date": "2025-12-02T00:00:00",
+        "paid_date": "2025-12-02T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-23",
+        "due_date": "2025-12-09T00:00:00",
+        "paid_date": "2025-12-22T00:00:00",
+        "status": "late"
+      }
+    ]
+  },
+  "inconsistent_earner": {
+    "profile": "inconsistent_earner",
+    "transactions": [
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 441,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 277.83,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 79.38,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-06-01T00:00:00",
+        "amount": 39.69,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 393,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 247.59,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 70.74,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-06-08T00:00:00",
+        "amount": 35.37,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 463,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 291.69,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 83.34,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-06-15T00:00:00",
+        "amount": 41.67,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 694,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 437.22,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 124.92,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-06-22T00:00:00",
+        "amount": 62.46,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 779,
+        "type": "income"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 490.77,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 140.22,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-06-29T00:00:00",
+        "amount": 70.11,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 866,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 545.58,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 155.88,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-07-06T00:00:00",
+        "amount": 77.94,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 417,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 262.71,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 75.06,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-07-13T00:00:00",
+        "amount": 37.53,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 849,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 534.87,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 152.82,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-07-20T00:00:00",
+        "amount": 76.41,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 745,
+        "type": "income"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 469.35,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 134.1,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-07-27T00:00:00",
+        "amount": 67.05,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 303,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 190.89,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 54.54,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-08-03T00:00:00",
+        "amount": 27.27,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 1080,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 680.4,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 194.4,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-08-10T00:00:00",
+        "amount": 97.2,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 408,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 257.04,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 73.44,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-08-17T00:00:00",
+        "amount": 36.72,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 819,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 515.97,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 147.42,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-08-24T00:00:00",
+        "amount": 73.71,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 456,
+        "type": "income"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 287.28,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 82.08,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-08-31T00:00:00",
+        "amount": 41.04,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 465,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 292.95,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 83.7,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-09-07T00:00:00",
+        "amount": 41.85,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 1097,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 691.11,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 197.46,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-09-14T00:00:00",
+        "amount": 98.73,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 800,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 504.0,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 144.0,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-09-21T00:00:00",
+        "amount": 72.0,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 671,
+        "type": "income"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 422.73,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 120.78,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-09-28T00:00:00",
+        "amount": 60.39,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 546,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 343.98,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 98.28,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-10-05T00:00:00",
+        "amount": 49.14,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 797,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 502.11,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 143.46,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-10-12T00:00:00",
+        "amount": 71.73,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 431,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 271.53,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 77.58,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-10-19T00:00:00",
+        "amount": 38.79,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 862,
+        "type": "income"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 543.06,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 155.16,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-10-26T00:00:00",
+        "amount": 77.58,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 840,
+        "type": "income"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 529.2,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 151.2,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-11-02T00:00:00",
+        "amount": 75.6,
+        "type": "expense",
+        "category": "misc"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 852,
+        "type": "income"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 536.76,
+        "type": "expense",
+        "category": "essentials"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 153.36,
+        "type": "expense",
+        "category": "debt"
+      },
+      {
+        "date": "2025-11-09T00:00:00",
+        "amount": 76.68,
+        "type": "expense",
+        "category": "misc"
+      }
+    ],
+    "repayments": [
+      {
+        "loan_id": "LOAN-0",
+        "due_date": "2025-07-01T00:00:00",
+        "paid_date": "2025-07-01T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-1",
+        "due_date": "2025-07-08T00:00:00",
+        "paid_date": "2025-07-12T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-2",
+        "due_date": "2025-07-15T00:00:00",
+        "paid_date": "2025-07-29T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-3",
+        "due_date": "2025-07-22T00:00:00",
+        "paid_date": "2025-07-22T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-4",
+        "due_date": "2025-07-29T00:00:00",
+        "paid_date": "2025-07-29T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-5",
+        "due_date": "2025-08-05T00:00:00",
+        "paid_date": "2025-08-06T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-6",
+        "due_date": "2025-08-12T00:00:00",
+        "paid_date": "2025-08-12T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-7",
+        "due_date": "2025-08-19T00:00:00",
+        "paid_date": "2025-08-30T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-8",
+        "due_date": "2025-08-26T00:00:00",
+        "paid_date": "2025-08-26T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-9",
+        "due_date": "2025-09-02T00:00:00",
+        "paid_date": "2025-09-11T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-10",
+        "due_date": "2025-09-09T00:00:00",
+        "paid_date": "2025-09-09T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-11",
+        "due_date": "2025-09-16T00:00:00",
+        "paid_date": "2025-09-26T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-12",
+        "due_date": "2025-09-23T00:00:00",
+        "paid_date": "2025-09-23T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-13",
+        "due_date": "2025-09-30T00:00:00",
+        "paid_date": "2025-09-30T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-14",
+        "due_date": "2025-10-07T00:00:00",
+        "paid_date": "2025-10-07T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-15",
+        "due_date": "2025-10-14T00:00:00",
+        "paid_date": "2025-10-15T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-16",
+        "due_date": "2025-10-21T00:00:00",
+        "paid_date": "2025-10-21T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-17",
+        "due_date": "2025-10-28T00:00:00",
+        "paid_date": "2025-11-07T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-18",
+        "due_date": "2025-11-04T00:00:00",
+        "paid_date": "2025-11-07T00:00:00",
+        "status": "missed"
+      },
+      {
+        "loan_id": "LOAN-19",
+        "due_date": "2025-11-11T00:00:00",
+        "paid_date": "2025-11-29T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-20",
+        "due_date": "2025-11-18T00:00:00",
+        "paid_date": "2025-11-18T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-21",
+        "due_date": "2025-11-25T00:00:00",
+        "paid_date": "2025-11-25T00:00:00",
+        "status": "on_time"
+      },
+      {
+        "loan_id": "LOAN-22",
+        "due_date": "2025-12-02T00:00:00",
+        "paid_date": "2025-12-16T00:00:00",
+        "status": "late"
+      },
+      {
+        "loan_id": "LOAN-23",
+        "due_date": "2025-12-09T00:00:00",
+        "paid_date": "2025-12-16T00:00:00",
+        "status": "late"
+      }
+    ]
+  }
+}
