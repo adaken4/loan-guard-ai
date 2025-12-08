@@ -14,10 +14,15 @@ from model.risk_scoring import score_borrower
 
 app = FastAPI(title="LoanGuard AI - Micro-Lender Risk Scoring API", version="0.1.0")
 
+ALLOWED_ORIGINS = os.environ.get(
+    "CORS_ORIGINS",
+    "http://localhost:3000,http://127.0.0.1:3000"
+).split(',')
+
 # ---- CORS ----
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Allow all origins for simplicity; adjust in production
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -31,7 +36,7 @@ def load_model():
     global model
     if model is None:
         if not os.path.exists(MODEL_PATH):
-            raise RuntimeError(f"Model not trained. Train it first.")
+            raise RuntimeError("Model not trained. Train it first.")
         model = joblib.load(MODEL_PATH)
     return model
 

@@ -11,6 +11,7 @@ type ScoreResult = {
 };
 
 export default function Home() {
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
   const [mode, setMode] = useState('simple'); // 'simple' or 'advanced'
   const [profile, setProfile] = useState('good_spender');
   const [customJson, setCustomJson] = useState(JSON.stringify({
@@ -42,7 +43,7 @@ export default function Home() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch('http://localhost:8000/predict', {
+      const res = await fetch(`${API_BASE_URL}/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ profile })
@@ -64,7 +65,7 @@ export default function Home() {
     setError(null);
     try {
       const parsed = JSON.parse(customJson);
-      const res = await fetch('http://localhost:8000/score', {
+      const res = await fetch(`${API_BASE_URL}/score`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(parsed)
