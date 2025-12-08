@@ -49,6 +49,8 @@ LoanGuard AI follows a modern, decoupled microservices architecture:
   * **Backend API:** Python FastAPI (Dockerized & Deployed on Render)
   * **Inference Engine:** Scikit-learn Pipeline (Serialized via Joblib)
 
+For a complete breakdown of the data flow, model design, and deployment strategy, please see the **[Full System Architecture Document](ARCHITECTURE.md)**.
+
 -----
 
 ## 🛠️ Tech Stack
