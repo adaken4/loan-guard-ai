@@ -11,31 +11,6 @@ from data.simulate_data import simulate_transactions
 
 # Generate synthetic training data (in real life: labeled historical data)
 def generate_training_data():
-    # profiles = ["good_spender", "gambling_spender", "inconsistent_earner"]
-    # labels = {"good_spender": 0, "gambling_spender": 2, "inconsistent_earner": 1}
-    # X, y = [], []
-
-    # for p in profiles:
-    #     for _ in range(200): # Augment with slight noise
-    #         base = PROFILES[p]
-
-    #         # Normalize income_amount
-    #         income_amount = base["income_amount"]
-    #         if isinstance(income_amount, list):
-    #             income_amount = np.mean(income_amount)
-
-    #         # Simulate minor variations
-    #         data = {
-    #             "transactions": [
-    #                 {"type": "income", "amount": income_amount * (0.9 + np.random.rand() * 0.2)},
-    #                 {"type": "expense", "category": "gambling", "amount": base.get("expense_types", {}).get("gambling", 0) * 1000}
-    #             ],
-    #             "repayments": [{"status": "on_time" if np.random.rand() < base["repayment_reliability"] else "missed"}]
-    #         }
-    #         feats = list(extract_features(data).values())
-    #         X.append(feats)
-    #         y.append(labels[p])
-    # return np.array(X), np.array(y)
     X, y = [], []
     labels = {"good_spender": 0, "gambling_spender": 2, "inconsistent_earner": 1}
 
@@ -47,6 +22,7 @@ def generate_training_data():
             base_label = labels[profile]
             final_label = base_label
 
+            # Introduce some noise to the labels for realism
             if base_label == 0 and random.random() < 0.05:
                 final_label = 2
             elif base_label == 2 and random.random() < 0.15:
