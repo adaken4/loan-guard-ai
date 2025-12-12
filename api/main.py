@@ -4,6 +4,7 @@ from typing import List, Any
 import joblib
 import traceback
 import os
+import json
 import numpy as np
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
@@ -79,6 +80,16 @@ def score_endpoint(payload: BorrowerRequest):
 def health_check():
     return {"status": "ok"}
 
+@app.get("/metrics")
+def get_model_metrics():
+    """Return model performance metrics"""
+    try:
+        with open("model/metrics.json", "r") as f:
+            metrics = json.load(f)
+        return {"success": True, "metrics": metrics}
+    except FileNotFoundError:
+        return {"success": False, "message": "Metrics not available. Train model first."}
+
 @app.post("/predict", response_model=ScoreResponse)
 def predict_from_profile(payload: BorrowerInput):
     clf = load_model()
@@ -92,19 +103,9 @@ def predict_from_profile(payload: BorrowerInput):
 
     proba = clf.predict_proba(X)[0]
     risk_class_idx = int(np.argmax(proba))
-    # model_confidence = np.max(proba)
-
-    # # Realistic PD changes blended with model confidence
-    # risk_pd_ranges = {
-    #     0: (0.02, 0.05),
-    #     1: (0.15, 0.30),
-    #     2: (0.70, 0.95)
-    # }
-    # min_pd, max_pd = risk_pd_ranges.get(risk_class_idx)
-
-    # default_probability = round((min_pd + (max_pd - min_pd) * model_confidence) * 100, 1)  # Probability of high risk
-
-    default_probability = round(proba[1] * 0.5 + proba[2] * 100, 1)
+    
+    # Weighted default probability: Low=5%, Medium=25%, High=80%
+    default_probability = round(proba[0] * 5 + proba[1] * 25 + proba[2] * 80, 1)
 
     risk_labels = {0: "Low Risk", 1: "Medium Risk", 2: "High Risk"}
     risk_class = risk_labels.get(risk_class_idx, "Unknown")
