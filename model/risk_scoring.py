@@ -10,7 +10,8 @@ def score_borrower(data):
     X = list(features.values())
     pred_class = model.predict([X])[0]
     pred_proba = model.predict_proba([X])[0]
-    default_prob = round(pred_proba[2] * 100, 1)
+    # Weighted default probability: Low=5%, Medium=25%, High=80%
+    default_prob = round((pred_proba[0] * 5 + pred_proba[1] * 25 + pred_proba[2] * 80), 1)
 
     risk_label = RISK_LABELS[pred_class]
     emoji = EMOJIS[pred_class]
@@ -25,7 +26,7 @@ def score_borrower(data):
     
     return {
         "risk_class": risk_label,
-        "default_probility": default_prob,
+        "default_probability": default_prob,
         "emoji": emoji,
         "recommendation": recommendation,
         "features": features
