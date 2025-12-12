@@ -8,6 +8,7 @@ import random
 from model.feature_engineering import extract_features
 from model.config import PROFILES
 from data.simulate_data import simulate_transactions
+from model.evaluate_model import evaluate_model
 
 # Generate synthetic training data (in real life: labeled historical data)
 def generate_training_data():
@@ -47,5 +48,9 @@ model = CalibratedClassifierCV(
 
 model.fit(X_train, y_train)
 
+# Evaluate model
+print("\n📊 Evaluating model performance...")
+metrics = evaluate_model(model, X_test, y_test)
+
 joblib.dump(model, "model/risk_model.pkl")
-print("✅ Model trained and saved to model/risk_model.pkl")
+print("\n✅ Model trained and saved to model/risk_model.pkl")
