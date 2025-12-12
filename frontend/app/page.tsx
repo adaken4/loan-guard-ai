@@ -1,6 +1,13 @@
-'use client';
+"use client";
 import { useState } from "react";
-import { Shield, TrendingUp, AlertTriangle, CheckCircle, Code, Zap } from "lucide-react";
+import {
+  Shield,
+  TrendingUp,
+  AlertTriangle,
+  CheckCircle,
+  Code,
+  Zap,
+} from "lucide-react";
 
 type ScoreResult = {
   risk_class: string;
@@ -12,47 +19,68 @@ type ScoreResult = {
 
 export default function Home() {
   const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
-  const [mode, setMode] = useState('simple'); // 'simple' or 'advanced'
-  const [profile, setProfile] = useState('good_spender');
-  const [customJson, setCustomJson] = useState(JSON.stringify({
-    "transactions": [
+  const [mode, setMode] = useState("simple"); // 'simple' or 'advanced'
+  const [profile, setProfile] = useState("good_spender");
+  const [customJson, setCustomJson] = useState(
+    JSON.stringify(
       {
-        "date": "2025-06-01T00:00:00",
-        "amount": 800,
-        "type": "income"
+        transactions: [
+          {
+            date: "2025-06-01T00:00:00",
+            amount: 800,
+            type: "income",
+          },
+          {
+            date: "2025-06-05T00:00:00",
+            amount: 200,
+            type: "expense",
+            category: "groceries",
+          },
+        ],
+        repayments: [
+          {
+            loan_id: "LOAN-1",
+            status: "on_time",
+          },
+        ],
       },
-      {
-        "date": "2025-06-05T00:00:00",
-        "amount": 200,
-        "type": "expense",
-        "category": "groceries"
-      }
-    ],
-    "repayments": [
-      {
-        "loan_id": "LOAN-1",
-        "status": "on_time"
-      }
-    ]
-  }, null, 2));
+      null,
+      2
+    )
+  );
   const [result, setResult] = useState<ScoreResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [metrics, setMetrics] = useState<any>(null);
+  const [showMetrics, setShowMetrics] = useState(false);
+
+  async function fetchMetrics() {
+    try {
+      const res = await fetch(`${API_BASE_URL}metrics`);
+      const data = await res.json();
+      if (data.success) {
+        setMetrics(data.metrics);
+        setShowMetrics(true);
+      }
+    } catch (err) {
+      console.error("Failed to fetch metrics:", err);
+    }
+  }
 
   async function submitSimple() {
     setLoading(true);
     setError(null);
     try {
       const res = await fetch(`${API_BASE_URL}predict`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ profile })
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ profile }),
       });
       const data = await res.json();
       setResult(data);
     } catch (err) {
       if (err instanceof Error) {
-        setError('Error: ' + err.message);
+        setError("Error: " + err.message);
       } else {
         setError("Unknown error");
       }
@@ -66,16 +94,16 @@ export default function Home() {
     try {
       const parsed = JSON.parse(customJson);
       const res = await fetch(`${API_BASE_URL}score`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(parsed)
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(parsed),
       });
       const data = await res.json();
       console.log(data);
       setResult(data.result || data);
     } catch (err) {
       if (err instanceof Error) {
-        setError('Error: ' + err.message);
+        setError("Error: " + err.message);
       } else {
         setError("Unknown error");
       }
@@ -84,18 +112,22 @@ export default function Home() {
   }
 
   const getRiskColor = () => {
-    if (!result) return 'bg-gray-100';
+    if (!result) return "bg-gray-100";
     const risk = result.risk_class?.toLowerCase();
-    if (risk === 'low risk') return 'bg-green-100 text-green-800 border-green-300';
-    if (risk === 'medium risk') return 'bg-yellow-100 text-yellow-800 border-yellow-300';
-    return 'bg-red-100 text-red-800 border-red-300';
+    if (risk === "low risk")
+      return "bg-green-100 text-green-800 border-green-300";
+    if (risk === "medium risk")
+      return "bg-yellow-100 text-yellow-800 border-yellow-300";
+    return "bg-red-100 text-red-800 border-red-300";
   };
 
   const getRiskIcon = () => {
     if (!result) return null;
     const risk = result.risk_class?.toLowerCase();
-    if (risk === 'low risk') return <CheckCircle className="w-6 h-6 text-green-600" />;
-    if (risk === 'medium risk') return <AlertTriangle className="w-6 h-6 text-yellow-600" />;
+    if (risk === "low risk")
+      return <CheckCircle className="w-6 h-6 text-green-600" />;
+    if (risk === "medium risk")
+      return <AlertTriangle className="w-6 h-6 text-yellow-600" />;
     return <AlertTriangle className="w-6 h-6 text-red-600" />;
   };
 
@@ -110,29 +142,160 @@ export default function Home() {
               LoanGuard AI
             </h1>
           </div>
-          <p className="text-gray-600 text-lg">Intelligent Risk Scoring for Smarter Lending Decisions</p>
+          <p className="text-gray-600 text-lg">
+            Intelligent Risk Scoring for Smarter Lending Decisions
+          </p>
+          <button
+            onClick={fetchMetrics}
+            className="mt-4 px-6 py-2 bg-white border-2 border-indigo-200 text-indigo-600 rounded-lg font-semibold hover:bg-indigo-50 transition-all"
+          >
+            📊 View Model Performance
+          </button>
         </div>
+
+        {/* Metrics Modal */}
+        {showMetrics && metrics && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+            onClick={() => setShowMetrics(false)}
+          >
+            <div
+              className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-2xl font-bold text-gray-900">
+                  Model Performance Metrics
+                </h2>
+                <button
+                  onClick={() => setShowMetrics(false)}
+                  className="text-gray-600 hover:text-gray-800 text-2xl"
+                >
+                  &times;
+                </button>
+              </div>
+
+              <div className="space-y-4">
+                {/* Accuracy + ROC-AUC */}
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-green-100 border-2 border-green-300 rounded-xl p-4">
+                    <p className="text-sm text-green-800 font-semibold mb-1">
+                      Accuracy
+                    </p>
+                    <p className="text-3xl font-bold text-green-900">
+                      {(metrics.accuracy * 100).toFixed(2)}%
+                    </p>
+                  </div>
+
+                  <div className="bg-blue-100 border-2 border-blue-300 rounded-xl p-4">
+                    <p className="text-sm text-blue-800 font-semibold mb-1">
+                      ROC-AUC Score
+                    </p>
+                    <p className="text-3xl font-bold text-blue-900">
+                      {(metrics.roc_auc_ovr * 100).toFixed(2)}%
+                    </p>
+                  </div>
+                </div>
+
+                {/* Per-Class */}
+                <div className="bg-gray-100 border-2 border-gray-300 rounded-xl p-4">
+                  <p className="text-sm font-semibold text-gray-900 mb-3">
+                    Per-Class Performance
+                  </p>
+
+                  <div className="space-y-2 text-sm">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Low Risk Precision:</span>
+                      <span className="font-semibold text-gray-900">
+                        {(
+                          metrics.classification_report["0"].precision * 100
+                        ).toFixed(1)}
+                        %
+                      </span>
+                    </div>
+
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">
+                        Medium Risk Precision:
+                      </span>
+                      <span className="font-semibold text-gray-900">
+                        {(
+                          metrics.classification_report["1"].precision * 100
+                        ).toFixed(1)}
+                        %
+                      </span>
+                    </div>
+
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">
+                        High Risk Precision:
+                      </span>
+                      <span className="font-semibold text-gray-900">
+                        {(
+                          metrics.classification_report["2"].precision * 100
+                        ).toFixed(1)}
+                        %
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Confusion Matrix */}
+                <div className="bg-indigo-100 border-2 border-indigo-300 rounded-xl p-4">
+                  <p className="text-sm font-semibold text-indigo-900 mb-2">
+                    Confusion Matrix
+                  </p>
+
+                  <div className="grid grid-cols-3 gap-2 text-center text-xs">
+                    {metrics.confusion_matrix.map((row: number[], i: number) =>
+                      row.map((val: number, j: number) => (
+                        <div
+                          key={`${i}-${j}`}
+                          className={`p-2 rounded ${
+                            i === j
+                              ? "bg-green-300 text-green-900 font-bold"
+                              : "bg-gray-300 text-gray-900"
+                          }`}
+                        >
+                          {val}
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Mode Toggle */}
         <div className="flex justify-center mb-8">
           <div className="bg-white rounded-xl shadow-lg p-1 inline-flex">
             <button
-              onClick={() => { setMode('simple'); setResult(null); setError(null); }}
+              onClick={() => {
+                setMode("simple");
+                setResult(null);
+                setError(null);
+              }}
               className={`px-6 py-3 rounded-lg font-semibold transition-all flex items-center gap-2 ${
-                mode === 'simple' 
-                  ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md' 
-                  : 'text-gray-600 hover:text-gray-800'
+                mode === "simple"
+                  ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md"
+                  : "text-gray-600 hover:text-gray-800"
               }`}
             >
               <Zap className="w-5 h-5" />
               Quick Demo
             </button>
             <button
-              onClick={() => { setMode('advanced'); setResult(null); setError(null); }}
+              onClick={() => {
+                setMode("advanced");
+                setResult(null);
+                setError(null);
+              }}
               className={`px-6 py-3 rounded-lg font-semibold transition-all flex items-center gap-2 ${
-                mode === 'advanced' 
-                  ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md' 
-                  : 'text-gray-600 hover:text-gray-800'
+                mode === "advanced"
+                  ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md"
+                  : "text-gray-600 hover:text-gray-800"
               }`}
             >
               <Code className="w-5 h-5" />
@@ -147,12 +310,12 @@ export default function Home() {
             <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-6">
               <h2 className="text-2xl font-semibold text-white flex items-center gap-2">
                 <TrendingUp className="w-6 h-6" />
-                {mode === 'simple' ? 'Profile Selection' : 'Custom Data Input'}
+                {mode === "simple" ? "Profile Selection" : "Custom Data Input"}
               </h2>
             </div>
 
             <div className="p-8 space-y-6">
-              {mode === 'simple' ? (
+              {mode === "simple" ? (
                 <>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-3">
@@ -165,7 +328,9 @@ export default function Home() {
                     >
                       <option value="good_spender">Good Spender</option>
                       <option value="gambling_spender">Gambling Spender</option>
-                      <option value="inconsistent_earner">Inconsistent Earner</option>
+                      <option value="inconsistent_earner">
+                        Inconsistent Earner
+                      </option>
                     </select>
                   </div>
 
@@ -174,7 +339,7 @@ export default function Home() {
                     disabled={loading}
                     className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    {loading ? 'Analyzing...' : 'Score Borrower'}
+                    {loading ? "Analyzing..." : "Score Borrower"}
                   </button>
                 </>
               ) : (
@@ -196,7 +361,7 @@ export default function Home() {
                     disabled={loading}
                     className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    {loading ? 'Processing...' : 'Analyze Custom Data'}
+                    {loading ? "Processing..." : "Analyze Custom Data"}
                   </button>
                 </>
               )}
@@ -212,7 +377,9 @@ export default function Home() {
           {/* Results Panel */}
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
             <div className="bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-6">
-              <h2 className="text-2xl font-semibold text-white">Risk Assessment Results</h2>
+              <h2 className="text-2xl font-semibold text-white">
+                Risk Assessment Results
+              </h2>
             </div>
 
             <div className="p-8">
@@ -221,19 +388,27 @@ export default function Home() {
                   <div>
                     <Shield className="w-20 h-20 mx-auto mb-4 opacity-20" />
                     <p className="text-lg font-medium">No results yet</p>
-                    <p className="text-sm mt-2">Submit a profile or custom data to see risk analysis</p>
+                    <p className="text-sm mt-2">
+                      Submit a profile or custom data to see risk analysis
+                    </p>
                   </div>
                 </div>
               ) : (
                 <div className="space-y-4 animate-in fade-in duration-500">
                   <div className="h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full"></div>
-                  
+
                   {/* Risk Class */}
-                  <div className={`border-2 rounded-xl p-6 ${getRiskColor()} transition-all`}>
+                  <div
+                    className={`border-2 rounded-xl p-6 ${getRiskColor()} transition-all`}
+                  >
                     <div className="flex items-center justify-between">
                       <div>
-                        <p className="text-sm font-semibold opacity-75 mb-1">Risk Classification</p>
-                        <p className="text-3xl font-bold">{result.risk_class}</p>
+                        <p className="text-sm font-semibold opacity-75 mb-1">
+                          Risk Classification
+                        </p>
+                        <p className="text-3xl font-bold">
+                          {result.risk_class}
+                        </p>
                       </div>
                       {getRiskIcon()}
                     </div>
@@ -241,23 +416,61 @@ export default function Home() {
 
                   {/* Default Probability */}
                   <div className="bg-gradient-to-br from-gray-50 to-gray-100 border-2 border-gray-200 rounded-xl p-6">
-                    <p className="text-sm font-semibold text-gray-600 mb-2">Default Probability</p>
+                    <p className="text-sm font-semibold text-gray-600 mb-2">
+                      Default Probability
+                    </p>
                     <div className="flex items-end gap-2">
-                      <p className="text-4xl font-bold text-gray-800">{(result?.default_probability ?? 0).toFixed(2)}%</p>
+                      <p className="text-4xl font-bold text-gray-800">
+                        {(result?.default_probability ?? 0).toFixed(2)}%
+                      </p>
                     </div>
                     <div className="mt-3 bg-gray-200 rounded-full h-3 overflow-hidden">
-                      <div 
+                      <div
                         className="bg-gradient-to-r from-indigo-600 to-purple-600 h-full transition-all duration-700"
-                        style={{ width: `${Math.min(result.default_probability, 100)}%` }}
+                        style={{
+                          width: `${Math.min(
+                            result.default_probability,
+                            100
+                          )}%`,
+                        }}
                       ></div>
                     </div>
                   </div>
 
                   {/* Recommendation */}
                   <div className="bg-indigo-50 border-2 border-indigo-200 rounded-xl p-6">
-                    <p className="text-sm font-semibold text-indigo-900 mb-2">Recommendation</p>
-                    <p className="text-lg text-indigo-800 leading-relaxed">{result.recommendation}</p>
+                    <p className="text-sm font-semibold text-indigo-900 mb-2">
+                      Recommendation
+                    </p>
+                    <p className="text-lg text-indigo-800 leading-relaxed">
+                      {result.recommendation}
+                    </p>
                   </div>
+
+                  {/* Key Features */}
+                  {result.features && (
+                    <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6">
+                      <p className="text-sm font-semibold text-gray-700 mb-3">
+                        Key Behavioral Features
+                      </p>
+                      <div className="grid grid-cols-2 gap-3 text-sm">
+                        {Object.entries(result.features)
+                          .slice(0, 6)
+                          .map(([key, value]) => (
+                            <div key={key} className="flex justify-between">
+                              <span className="text-gray-600">
+                                {key.replace(/_/g, " ")}:
+                              </span>
+                              <span className="font-semibold text-gray-800">
+                                {typeof value === "number"
+                                  ? value.toFixed(2)
+                                  : value}
+                              </span>
+                            </div>
+                          ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
