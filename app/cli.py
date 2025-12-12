@@ -23,8 +23,11 @@ def main():
 
     print("\n🔍 AI Risk Assessment:")
     print(f"    Risk Level: {result['emoji']} {result['risk_class']}")
-    print(f"    Estimated Default Probability: {result['default_probility']}%")
+    print(f"    Estimated Default Probability: {result['default_probability']}%")
     print(f"\n💡 Recommendation: {result['recommendation']}")
+    print(f"\n📊 Key Features:")
+    for key, value in list(result['features'].items())[:5]:
+        print(f"    • {key}: {value:.2f}" if isinstance(value, float) else f"    • {key}: {value}")
 
 if __name__ == "__main__":
     main()
