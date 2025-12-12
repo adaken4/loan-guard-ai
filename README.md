@@ -2,6 +2,12 @@
 
 ### From Transaction to Trust: Intelligent Risk Scoring for Micro-Lenders
 
+![Model Accuracy](https://img.shields.io/badge/Accuracy-95.83%25-brightgreen)
+![ROC-AUC](https://img.shields.io/badge/ROC--AUC-97.19%25-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## 📖 Overview
 
 **LoanGuard AI** is a full-stack predictive analytics platform designed to solve the critical bottleneck in micro-lending: **Risk Assessment**.
@@ -32,8 +38,6 @@ LoanGuard AI uses a custom-trained **Random Forest Classifier**, enhanced with *
 ## 🧠 The AI Model (Predictive Analytics)
 
 We chose a **White-Box Approach** over deep learning to ensure transparency and auditability in financial decision-making.
-
-[Image of Random Forest Model Architecture]
 
 1.  **Data Simulation:** We generated synthetic data representing three core archetypes: *Good Spender*, *Gambling Spender*, and *Inconsistent Earner*.
 2.  **Algorithm:** **Random Forest Classifier** (Scikit-Learn). Selected for its ability to handle tabular data and provide feature importance.
@@ -95,18 +99,8 @@ docker run -p 8000:8000 loanguard-api
 **Option B: Local Python Env**
 
 ```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model (creates model/risk_model.pkl)
-python -m model.train_model
-
-# Run the API
-uvicorn api.main:app --reload
+# 1. Start the backend with the provided custom script
+./quick_start.sh
 ```
 
 *The API will be available at `http://localhost:8000`*
